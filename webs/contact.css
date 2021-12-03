@@ -1,0 +1,107 @@
+@import 'nav.css';
+
+body{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('asset/BACKGROUNDWEB.jpg');
+    background-size: cover;
+    align-items: center;
+    display: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+hr{
+    width: 80%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.contact-items{
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.customer-care,.write-us,.sales-market{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    margin: 30px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 250px;
+    
+}
+
+.customer-care{
+    height: 250px;
+    box-sizing: 0 15px 15px rgb(255, 255, 255);
+    border: 2.5px solid rgb(175, 175, 175);
+    background-color:rgb(255, 255, 255); 
+}
+
+.write-us{
+    height: 250px;
+    box-sizing: 0 15px 15px rgb(255, 255, 255);
+    border: 2.5px solid rgb(175, 175, 175);
+    background-color:rgb(255, 255, 255); 
+}
+
+p{
+    font-size: 15px;
+}
+
+button{
+    padding: 8px 16px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    margin: 15px auto;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+    color: gray;
+}
+
+#cust-care{
+    background: rgb(0, 0, 0);
+
+    box-shadow: 0 0 5px black;
+}
+
+#write{
+    background: rgb(0, 0, 0);
+
+    box-shadow: 0 0 5px black;
+}
+
+#sales{
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 5px black;
+}
+
+a{
+    font-size: 16px;
+}
+
+.customer-care a{
+    color: rgb(0, 0, 0);
+}
+
+.sales-market a{
+    color: blue;
+    text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+}

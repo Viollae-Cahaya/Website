@@ -1,8 +1,0 @@
-body{
-    width: 100%;
-    height: calc(100vh - 120px);
-    background-image: url('asset/BACKGROUNDWEB.jpg');
-    background-size: cover;
-    align-items: center;
-    display: fixed;
-}
